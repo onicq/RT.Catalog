@@ -9,7 +9,7 @@ using RT.Catalog.Web.Infrastructure.Settings;
 using RT.Catalog.Web.Infrastructure.ViewModels.LogViewModels;
 using Calabonga.Microservices.Core;
 using Calabonga.Microservices.Core.Validators;
-using Calabonga.Microservices.Core.QueryParams
+using Calabonga.Microservices.Core.QueryParams;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
