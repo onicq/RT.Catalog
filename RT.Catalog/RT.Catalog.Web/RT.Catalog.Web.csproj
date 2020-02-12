@@ -4,6 +4,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Users\Miras\source\repos\RT.Catalog\RT.Catalog\RT.Catalog.Web\RT.Catalog.Web.xml</DocumentationFile>
+  </PropertyGroup>
+
   <ItemGroup>
     <Compile Remove="Infrastructure\QueryParams\**" />
     <Content Remove="Infrastructure\QueryParams\**" />
